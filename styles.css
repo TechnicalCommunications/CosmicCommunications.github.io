@@ -32,7 +32,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 .logo {
@@ -45,9 +44,7 @@ body {
 .nav-links {
     display: flex;
     list-style: none;
-    gap: 2rem;
-    flex-wrap: wrap;
-}
+    gap: 1rem;}
 
 .nav-links a {
     color: #fff;
