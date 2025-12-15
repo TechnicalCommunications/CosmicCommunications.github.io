@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Cosmic Communications</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .contact-hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-align: center;
+            padding: 6rem 0 4rem;
+            margin-bottom: 3rem;
+        }
+        
+        .contact-hero h2 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+            animation: fadeInDown 1s ease;
+        }
+        
+        .cosmic-tagline {
+            font-size: 1.5rem;
+            font-style: italic;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+            animation: fadeInUp 1s ease 0.3s both;
+        }
+        
+        .contact-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        .contact-card {
+            background: white;
+            border-radius: 20px;
+            padding: 3rem;
+            box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+            margin-bottom: 3rem;
+            animation: scaleIn 0.8s ease 0.6s both;
+        }
+        
+        .mystical-border {
+            border: 3px solid;
+            border-image: linear-gradient(135deg, #ffd700, #764ba2, #667eea) 1;
+            padding: 2rem;
+            border-radius: 15px;
+            background: linear-gradient(135deg, rgba(255,215,0,0.05), rgba(118,75,162,0.05));
+        }
+        
+        .contact-icon {
+            font-size: 4rem;
+            margin-bottom: 1.5rem;
+            animation: float 3s ease-in-out infinite;
+        }
+        
+        .email-display {
+            font-size: 1.8rem;
+            color: #667eea;
+            font-weight: bold;
+            margin: 2rem 0;
+            word-break: break-all;
+        }
+        
+        .email-link {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 1.2rem 3rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-size: 1.3rem;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+            margin: 1rem 0;
+        }
+        
+        .email-link:hover {
+            transform: translateY(-5px) scale(1.05);
+            box-shadow: 0 15px 30px rgba(102, 126, 234, 0.6);
+            background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+        }
+        
+        .mystical-message {
+            text-align: center;
+            font-size: 1.2rem;
+            color: #5e35b1;
+            margin: 2rem 0;
+            font-style: italic;
+        }
+        
+        .stars {
+            color: #ffd700;
+            font-size: 2rem;
+            margin: 1rem 0;
+        }
+        
+        .divider {
+            height: 3px;
+            background: linear-gradient(90deg, transparent, #ffd700, transparent);
+            margin: 2rem 0;
+        }
+        
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        @keyframes scaleIn {
+            from {
+                opacity: 0;
+                transform: scale(0.8);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+        
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+        
+        .connection-text {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #444;
+            margin: 1.5rem 0;
+        }
+        
+        @media (max-width: 768px) {
+            .contact-hero h2 {
+                font-size: 2rem;
+            }
+            .email-display {
+                font-size: 1.3rem;
+            }
+            .contact-card {
+                padding: 2rem 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">Cosmic Communications</h1>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="astrology.html">Astrology</a></li>
+                <li><a href="sacred-geometry.html">Sacred Geometry</a></li>
+                <li><a href="civil-code.html">Cosmic Civil Code</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="contact-hero">
+        <h2>✨ Connect with the Cosmos ✨</h2>
+        <p class="cosmic-tagline">Let the Stars Align for Our Conversation</p>
+    </div>
+
+    <div class="contact-container">
+        <div class="contact-card">
+            <div class="mystical-border">
+                <div style="text-align: center;">
+                    <div class="contact-icon">🌟</div>
+                    <h3 style="color: #5e35b1; font-size: 2rem; margin-bottom: 1rem;">Reach Out Through the Ether</h3>
+                    
+                    <div class="stars">⭐ ✨ 🌙 ✨ ⭐</div>
+                    
+                    <p class="connection-text">
+                        Whether you seek guidance in the celestial arts, wish to discuss sacred patterns, 
+                        or simply want to share your journey through the cosmic realms, I welcome your message.
+                    </p>
+                    
+                    <div class="divider"></div>
+                    
+                    <p class="mystical-message">
+                        "In the vastness of the cosmos, every connection matters"</p>
+                    
+                    <div class="email-display">📧 whatsyourprice.sandy@protonmail.com</div>
+                    
+                    <a href="mailto:whatsyourprice.sandy@protonmail.com" class="email-link">
+                        ✉️ Send Cosmic Message
+                    </a>
+                    
+                    <div class="divider"></div>
+                    
+                    <p class="connection-text" style="margin-top: 2rem;">
+                        <strong>🔮 Response Time:</strong> Usually within 24-48 hours<br>
+                        <strong>🌌 Best Topics:</strong> Astrology, Sacred Geometry, Spiritual Guidance, Collaboration
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="contact-card" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; text-align: center;">
+            <h3 style="font-size: 1.8rem; margin-bottom: 1rem;">🌠 Join the Journey</h3>
+            <p style="font-size: 1.1rem; line-height: 1.8;">
+                Every email is a doorway to new discoveries. 
+                Whether you're a fellow seeker or curious explorer, 
+                I look forward to connecting with you on this cosmic path.
+            </p>
+            <div class="stars" style="margin-top: 1.5rem;">✨ As above, so below ✨</div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Cosmic Communications. All rights reserved.</p>
+    </footer>
+</body>
+</html>
